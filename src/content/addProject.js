@@ -3,7 +3,9 @@ const addProject = () => {
     let buttonQuery = document.querySelector('.add-project-button');
     buttonQuery.addEventListener('click', (e) => {
         buttonQuery.style.display = 'none';
+        buttonQuery.style.textAlign = 'center';
         buttonContainer.style.display = 'flex';
+        // buttonContainer.style.align-it
     })
     return;
 }

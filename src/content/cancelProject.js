@@ -5,6 +5,8 @@ const cancelProject = () => {
     buttonQuery.addEventListener('click', (e) => {
         buttonContainer.style.display = 'none';
         addProjectButton.style.display = 'flex';
+        addProjectButton.style.textAlign = 'center';
+        
     })
     return;
 }

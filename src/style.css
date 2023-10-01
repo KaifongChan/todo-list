@@ -67,6 +67,17 @@ body {
     font-family: 'Shadows Into Light', cursive;
     color: white;
     width: 70%;
+    text-align: center;
+}
+
+.project-title-button {
+    font-size: 16px;
+    font-family: 'Shadows Into Light', cursive;
+    color: white;
+    background-color: #695e5e;
+    width: 70%;
+
+    
 }
 
 .nav-button:hover {
@@ -118,5 +129,11 @@ body {
 }
 
 .project-active {
-    background-color: yellow;
+    background-color: #353030;
 }
+
+.add-project-button {
+    display: flex;
+    justify-content: center;
+}
+
