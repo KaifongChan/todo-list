@@ -38,9 +38,15 @@ body {
 }
 
 .project-container {
-    background-color: blue;
+    background-color: rgb(200, 200, 216);
     width: 70%;
     height: 100%;
+    display: flex;
+    padding-top: 15px;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+
 }
 
 .footer {
@@ -91,6 +97,12 @@ body {
     gap: 15px;
 }
 
+.task-input-container {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
 .project-input-buttons input {
     width: 75%;
     font-size: 30px;
@@ -104,6 +116,19 @@ body {
     background-color: green;
     border: none;
     border-radius: 2.5px;
+}
+
+.add-task-button {
+    background-color: green;
+    border: none;
+    border-radius: 2.5px;
+}
+
+.minus-task-button {
+    background-color: red;
+    border: none;
+    border-radius: 2.5px;
+    /* display: inline; */
 }
 
 .minus-project-button-button {
@@ -137,3 +162,13 @@ body {
     justify-content: center;
 }
 
+
+.create-task-listing {
+    background-color: purple;
+}
+
+.task-list {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
